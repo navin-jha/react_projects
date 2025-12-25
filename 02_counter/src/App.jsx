@@ -14,7 +14,7 @@ function App() {
       // setCounter(counter+1)
       // setCounter(counter+1)
       // setCounter(counter+1)
-      // setCounter(prevCounter=> prevCounter+1)
+      // setCounter(prevCounter => prevCounter + 1)
       // setCounter(prevCounter=> prevCounter+1)
       // setCounter(prevCounter=> prevCounter+1)
 

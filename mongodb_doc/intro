@@ -1,0 +1,9 @@
+# MongoDB me special operators hote hain jo conditions me kaam aate hain:
+
+# Operator	Meaning	Example
+# $eq	Equal to	{ age: { $eq: 25 } }
+# $ne	Not equal to	{ age: { $ne: 25 } }
+# $gt	Greater than	{ age: { $gt: 18 } }
+# $gte	Greater or equal	{ age: { $gte: 18 } }
+# $lt	Less than	{ age: { $lt: 30 } }
+# $lte	Less or equal	{ age: { $lte: 30 } }

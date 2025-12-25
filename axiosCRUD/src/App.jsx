@@ -22,6 +22,7 @@ function App() {
           await axios.delete(`${API}/${id}`)
           setUser(user.filter((id)=>{id!==id.user}))
    }
+   const update= async()
 
     useEffect(()=>{
       featchUser()
@@ -47,6 +48,7 @@ function App() {
               Delete
             </button>
           </li>
+          
         ))}
       </ul>
     </div>

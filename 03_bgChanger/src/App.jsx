@@ -7,8 +7,8 @@ function App() {
   const[color, setColor]=useState('olive')
   return (
     <>
-    <div className='h-screen flex justify-center items-center text-white space-x-1'  
-    style={{background:color}}
+      <div className={`h-screen flex justify-center items-center text-white space-x-1 bg:${color}`}  
+    
     >
       <button className='bg-green-300 p-3 rounded-xl' onClick={()=>{setColor("green")} }>green</button>
       <button className='bg-red-300 p-3 rounded-xl 'onClick={()=>{setColor("red")}}>red</button>
